@@ -260,7 +260,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: ""
+          url: "https://drive.google.com/file/d/1zODvjnr-UFv9l0ask3GrOZUZIYdbImY1/view?usp=drivesdk"
         },
         // {
         //   name: "Award Letter",
@@ -281,7 +281,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: ""
+          url: "https://drive.google.com/file/d/1NKGkKBG6Orhz4tTU8Eb5YZ1xI2jC9QQo/view?usp=drivesdk"
         }
       ]
     },
@@ -292,7 +292,7 @@ const achievementSection = {
       image: require("./assets/images/englishsenior.jpeg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "Certification", url: "https://drive.google.com/file/d/1PsSn8mFD72ExszYYnrR7mzCsvtTHGbC8/view?usp=drivesdk"},
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
