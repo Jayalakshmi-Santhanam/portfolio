@@ -26,7 +26,7 @@ const greeting = {
     "A passionate AI/ML Developer 🚀 having an experience of building Generative AI Application with Python libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1jGDh4DBo4QgHPNVNfz_kkuTRV357NYe3/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1wlz4JduQQ8mey1sWkb1IKoifHB_bIR_9/view?usp=drivesdk", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
