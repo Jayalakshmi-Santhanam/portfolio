@@ -23,7 +23,7 @@ const greeting = {
   username: "Jaya",
   title: "Hi all, I'm Jayalakshmi S",
   subTitle: emoji(
-    "A passionate AI/ML Developer 🚀 having an experience of building Generative AI Application with Python libraries and frameworks."
+    "Aspiring Data Analyst 🚀 with hands-on experience in data analysis, data visualization, and business intelligence using Python, SQL, Power BI, Excel, and Pandas. Passionate about turning raw data into actionable business insights."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1wlz4JduQQ8mey1sWkb1IKoifHB_bIR_9/view?usp=drivesdk", // Set to empty to hide the button
@@ -47,29 +47,57 @@ const socialMediaLinks = {
 
 // Skills Section
 
+
 const skillsSection = {
-  title: "What I do",
-  subTitle: "THOUGHTFUL SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle:
+    "PASSIONATE DATA ANALYST WHO TRANSFORMS RAW DATA INTO MEANINGFUL BUSINESS INSIGHTS",
+
   skills: [
     emoji(
-      "⚡ Develop highly Scalable code that doesn't break in production environment."
+      "📊 Perform data cleaning, analysis, and visualization using Python, Pandas, SQL, and Excel."
     ),
-    emoji("⚡ Generative AI Applications ( GEN AI ) for day to day life"),
     emoji(
-      "⚡ Build scalable AI/ML applications using Python, FastAPI, and modern deep learning frameworks."
+      "📈 Build interactive dashboards and reports in Power BI to support data-driven decision making."
+    ),
+    emoji(
+      "📉 Conduct Exploratory Data Analysis (EDA), identify trends, and generate actionable insights from data."
     )
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  /* Font Awesome Icons */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Power BI",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    },
+    {
+      skillName: "Excel",
+      fontAwesomeClassname: "fas fa-file-excel"
+    },
+    {
+      skillName: "Pandas",
+      fontAwesomeClassname: "fas fa-table"
+    },
+    {
+      skillName: "NumPy",
+      fontAwesomeClassname: "fas fa-calculator"
+    },
+    {
+      skillName: "HTML",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
@@ -79,47 +107,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
-    },
-    // {
-    //   skillName: "reactjs",
-    //   fontAwesomeClassname: "fab fa-react"
-    // },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
+    }
   ],
-  display: true // Set false to hide this section, defaults to true
-};
 
+  display: true
+};
 // Education Section
 
 const educationInfo = {
@@ -148,24 +140,33 @@ const educationInfo = {
 };
 
 // Your top 3 proficient stacks/tech experience
-
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Show proficiency section
+
   experience: [
     {
-      Stack: "Programming", //Insert stack or technology you have experience in
-      progressPercentage: "60%" //Insert relative proficiency in percentage
+      Stack: "Python & Pandas",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Database",
-      progressPercentage: "93%"
+      Stack: "SQL (MySQL)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "AI/ML",
-      progressPercentage: "70%"
+      Stack: "Power BI",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Excel & Data Cleaning",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Exploratory Data Analysis (EDA)",
+      progressPercentage: "80%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+
+  displayCodersrank: false
 };
 
 // Work experience section
