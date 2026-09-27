@@ -26,7 +26,7 @@ const greeting = {
     "Aspiring Data Analyst 🚀 with hands-on experience in data analysis, data visualization, and business intelligence using Python, SQL, Power BI, Excel, and Pandas. Passionate about turning raw data into actionable business insights."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1wlz4JduQQ8mey1sWkb1IKoifHB_bIR_9/view?usp=drivesdk", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1lLht62BEPDL3v3VntuTb_bTZTOZ0rccW/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -238,6 +238,17 @@ const bigProjects = {
       //     url: "http://nextu.se/"
       //   }
       // ]
+    },
+    {
+      image: require("./assets/images/project3.png"),
+      projectName: "City Traffic Violations",
+      projectDesc: "Interactive Power BI dashboard with DAX-based KPIs and dynamic filters(day, zone, month-year) to surface violation trends, accident rates, and severity levels for city planning.",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -252,6 +263,19 @@ const achievementSection = {
     "Achievements I have received !",
 
   achievementsCards: [
+     {
+      title: "Data Analytics",
+      subtitle: "Completed a professional training program in Data Analytics, covering data analysis techniques, tools, and practical applications, achieving Grade A (SLA, Chennai).",
+      image: require("./assets/images/dataanalytics.png"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: "https://drive.google.com/file/d/1HaLLBQDy7SFN6oURDeBWSDd4_xH1VgDI/view?usp=sharing"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
     {
       title: "BITSYNC 2.0(DB WIZARD)",
       subtitle:
@@ -299,7 +323,8 @@ const achievementSection = {
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
         // }
       ]
-    }
+    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -366,7 +391,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: true// Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
