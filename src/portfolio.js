@@ -263,6 +263,19 @@ const achievementSection = {
     "Achievements I have received !",
 
   achievementsCards: [
+    {
+title: "Python for Data Analysis",
+  subtitle: "Completed IBM's Python for Data Analysis course (DA0201EN) through SLA Institute, Chennai, covering data handling and analysis with Python libraries such as Pandas and NumPy.",
+      image: require("./assets/images/pythondataanalytics.png"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: "https://drive.google.com/file/d/1ACylvCcUVWaEYPO-DYuxVJvUs60v9ozg/view?usp=sharing"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
      {
       title: "Data Analytics",
       subtitle: "Completed a professional training program in Data Analytics, covering data analysis techniques, tools, and practical applications, achieving Grade A (SLA, Chennai).",
